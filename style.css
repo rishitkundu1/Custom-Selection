@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+} 
+body{
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background-color: dodgerblue;
+}
+h1{
+      font-size: 200px;
+      color: white;
+}
+::selection{
+      color: dodgerblue;
+      background-color: white;
+}
